@@ -1,0 +1,60 @@
+.sec3-div {
+  /* padding-bottom: 40px; */
+  margin: 0 50px;
+  /* border: 2px dashed #9747FF; */
+  /* border-radius: 10px; */
+  /* Width: 1280px; */
+  /* height: 1200px; */
+  /* Top: 1235px; */
+  /* Left: 80px; */
+}
+
+.sec3-rows {
+  background-color: red;
+  padding: 10px;
+}
+
+.sec3-cards {
+  width: 100%;
+  /* margin-top: 19px; */
+  /* margin-left: 20px; */
+  /* gap: 10px; */
+  margin-bottom: 20px;
+  max-height: 330px;
+  /* max-width: 300px; */
+  max-width: 340px;
+  border: none;
+}
+
+.sec3-cards:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px 5px rgb(201, 201, 201);
+  border: none;
+}
+
+.sec3-card-img {
+  /*   max-height: 200px;
+  max-width: 300px;
+ */
+  max-height: 230px;
+  max-width: 340px;
+  border: none !important;
+  border-radius: 0 !important;
+  /* padding-left: 10px; */
+}
+
+.sec3-btn {
+  background-color: #26D6EB;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  /* margin-top: 10px; */
+  /* left: 18px; */
+  /* gap: 10px; */
+}
+
+.sec3-btn:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,149 @@
+.sec9-container {
+    /* margin-top: 40px; */
+    padding: 50px;
+}
+
+.sec9-inner-container {
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+.sec9-head {
+    text-align: center;
+}
+
+.sec9-inner {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.sec9-left {
+    background-color: #55ADCC;
+    border-radius: 4px 16px 16px 4px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    /* horizontally center */
+    align-items: center;
+    /* vertically center */
+
+}
+
+.sec9-left-img {
+    background-size: cover;
+    background-position: center;
+    max-width: 90%;
+    margin: auto;
+    height: auto;
+    border-radius: 4px 16px 16px 4px;
+}
+
+.sec9-right {
+    flex: 1;
+}
+
+.sec9-form {
+    color: white;
+    margin-top: 5%;
+    max-width: 60%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    position: relative;
+}
+
+.sec9-form-input {
+    background-color: black;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    outline: none;
+}
+
+.sec9-form-input:focus {
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.msg-input {
+    padding-top: 15%;
+}
+
+.sec9-form-input::placeholder {
+    color: white;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+
+.sec9-form-input:focus::placeholder,
+.sec9-form-input:not(:placeholder-shown)::placeholder {
+    transform: translateY(-20px);
+    font-size: 14px;
+    opacity: 1;
+    color: white;
+}
+
+.sec9-form-btn {
+    max-width: 88px;
+    max-height: 39px;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 20px;
+    background-color: #26D6EB;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+.sec9-form-btn:hover {
+    transform: scale(1.05);
+}
+
+/* small screens....tablet,mobile */
+@media (max-width: 768px) {
+    .sec9-inner {
+        flex-direction: column;
+    }
+
+    .sec9-left,
+    .sec9-right {
+        flex: none;
+        width: 100%;
+    }
+
+    .sec9-form {
+        max-width: 80%;
+        margin-left: 10%;
+    }
+}
+
+/* ------------------ */
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width:426px) {
+    h1 {
+        font-size: 0.9rem;
+    }
+
+    h6 {
+        font-size: 0.5rem;
+    }
+}
+
+@media (max-width:321px) {
+    h1 {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,49 @@
+.sec7-container {
+    background: url("../images/section7/background.jpg");
+    background-position: center;
+    height: 500px;
+    max-height: 500px;
+    max-width: 90%;
+    margin-left: 5%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.sec7-div1 {
+    text-align: center;
+    width: 60%;
+    /* padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; */
+}
+
+.sec7-div1-btn {
+    background-color: #26D6EB;
+    color: white;
+    border: none;
+    /* width: 286.47px; */
+    /* Height: 46.73px; */
+    width: auto;
+    border-radius: 4.56px;
+    padding: 12px 19px;
+    Gap: 11.4px;
+    font-weight: 600;
+    font-size: 18.24px;
+    line-height: 22.07px;
+    margin-top: 50px;
+}
+
+.sec7-div2{
+    width: 90%;
+}
+
+.sec7-slider-img{
+    max-width: 150px;
+    height: auto;
+}

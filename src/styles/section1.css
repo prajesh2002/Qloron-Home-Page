@@ -1,0 +1,96 @@
+.sec1-container {
+    box-shadow: 0 0 10px 0 rgb(159, 159, 159);
+    padding: 0 0 20px 0;
+    /* width:1440px; */
+    /* height:698px; */
+    /* top:90px; */
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.sec1-content {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    padding: 20px;
+    color: white;
+    width: 39%;
+    margin-left: 15%;
+}
+
+.sec1-btn {
+    padding: 12px 18px;
+    border-radius: 4px;
+    background-color: #12B1BE;
+    color: white;
+    gap: 10px;
+    font-weight: bold;
+    border: none;
+}
+
+.sec1-btn:hover {
+    color: white;
+    background-color: #12B1BE;
+    transform: scale(1.05);
+}
+
+
+.sec1-content p {
+    font-size: 1.2rem;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 992px) {
+    .sec1-content {
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+
+
+@media (max-width: 686px) {
+    .sec1-content {
+        width: 90%;
+        margin-left: 6%;
+        padding-top: 5%;
+    }
+
+    .sec1-content h1 {
+        font-size: 1.1rem;
+    }
+
+    .sec1-content p {
+        font-size: 0.7rem;
+    }
+
+    .sec1-btn {
+        font-size: 0.7rem;
+        padding: 8px 10px;
+
+    }
+
+}
+
+@media (max-width: 387px) {
+    .sec1-content {
+        width: 90%;
+        margin-left: 5%;
+        padding-top: 10%;
+    }
+
+    .sec1-content h1 {
+        font-size: 0.7rem;
+    }
+
+    .sec1-content p {
+        font-size: 0.5rem;
+    }
+
+    .sec1-btn {
+        font-size: 0.5rem;
+        padding: 6px 10px;
+    }
+}
+

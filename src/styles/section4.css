@@ -1,0 +1,42 @@
+/* section4.css */
+  .sec4-div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px; 
+  }
+  
+.sec4-card {
+  border: none;
+  box-shadow: none;
+  background: url("../images/section4-1.jpg");
+  max-width: 90%;
+  margin-left: 4%;
+  background-position: center;
+  /* top: 70px; */
+  margin-top: 30px;
+  /* gap: 10px; */
+  display: flex; 
+}
+
+  
+  .sec4-left {
+    flex: 1;
+    color: white;
+    max-width: 550px;
+    margin-left: 8%;
+    margin-right: 20px;
+  }
+  
+  .sec4-right {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .sec4-img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 3px;
+  }
+  

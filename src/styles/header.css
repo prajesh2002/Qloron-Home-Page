@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: black !important;
+    margin: 0;
+    padding: 0;
+    height: 90px;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+}
+
+
+.navbar-brand img {
+    max-height: 100%;
+    /* clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%); */
+    /*for that curve*/
+    width: auto;
+}
+
+/* .home:active {
+    color: #12B1BE !important;
+} */
+
+.sortbox-btn {
+    background-color: #12B1BE;
+    max-width: 115px;
+    /* height: 34px; */
+    /* top: 29px; */
+    /* left: 1195px; */
+    border:none;
+    border-radius: 27px;
+    padding: 10px 16px;
+    gap: 10px;
+    margin-right: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.sortbox-btn:hover {
+    background-color: #12B1BE;
+    transform: scale(1.05);
+    border-radius: 27px;
+    padding: 10px 16px;
+    gap: 10px;
+    border: none;
+}
+
+.icon {
+    margin-right: 70px;
+    /* margin-bottom: 10px; */
+}
+
+.navbar-custom .user-icon {
+    margin-right: 20px;
+}
+
+
+.navbar-light .navbar-nav .nav-item.dropdown .nav-link {
+    color: white !important;
+}
+
+/* dropdown */
+.nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-item.dropdown:hover .nav-link {
+    color: #ffffff;
+    /* Change color of the dropdown link on hover (Green color as an example) */
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        height: auto;
+    }
+
+    .navbar-brand img {
+        max-height:60px; 
+    }
+    .sortbox-btn {
+        margin: 5px 0;
+        font-size: 14px; 
+    }
+
+    .icon {
+        margin-right: 0;
+        margin: 20px;
+    }
+}
